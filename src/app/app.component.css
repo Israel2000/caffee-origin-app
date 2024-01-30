@@ -1,0 +1,120 @@
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .brown-button {
+    background-color: #1A0C0F;
+    color: white;
+    padding: 41px !important;
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+  }
+
+  .mat-mdc-card {
+    margin: 41px !important;
+    /* height: 400px */
+  }
+
+  /* video */
+  .single-column-layout {
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+  }
+
+  .video-card,
+  .text-card {
+    flex: 1;
+    margin: 0 10px;
+    /* Adjust margin as needed */
+  }
+
+  .video-container,
+  .text-content {
+    display: flex;
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+  }
+
+  .video-container video {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    /* Maintain aspect ratio while covering the container */
+    padding: 10px;
+  }
+
+  .text-content {
+    /* Add styles for text content if needed */
+    height: 330px;
+    padding: 10px;
+  }
+
+  .no-margin {
+    margin: 0 !important;
+    /* Remove margin */
+  }
+
+  /* section 2 tab*/
+  
+  .example-container {
+    display: flex;
+    justify-content: space-between;
+    /* Adjust as needed */
+  }
+
+  .example-card {
+    width: calc(33.33% - 20px);
+    /* Adjust as needed */
+    margin-bottom: 20px;
+    /* Adjust as needed */
+  }
+
+  /* footer */
+/* styles.scss or your component's SCSS file */
+
+.footer {
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: white;
+}
+
+.icon:hover {
+  color: lightgray;
+}
